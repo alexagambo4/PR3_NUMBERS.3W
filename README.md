@@ -1,29 +1,30 @@
 # PR3_NUMBERS.3W
-#Practica 1 de la función 
-#Variables
+#Practica 3 de la función
+#Numbers
 
 print("")
-print("Esta es mi prcatica 1 de variables")
+print("Esta es mi practica 2 de data types")
 print("")
 print("")
 print("Jimenez Gamboa Issis Alexa 3W")
 print("")
-# Asignación de valores a las variables x e y
-x = 10  # x se establece en 10
-y = 20  # y se establece en 20
 
-# Imprimir el valor de x
-print(x)  # Muestra el valor de x en la consola
+#Definición de una variable entera
+x = (1)  #x es un número entero
 
-# Imprimir el valor de y
-print(y)  # Muestra el valor de y en la consola
+#Definición de una variable de punto flotante
+y = (2.8)  #y es un número de punto flotante
 
-# Imprimir un mensaje antes de mostrar la suma
-print("La suma de los dos números es: ")  # Mensaje descriptivo
+#Definición de una variable compleja
+z = (1j)  #z es un número complejo (parte imaginaria)
 
-# Calcular y mostrar la suma de x e y
-print(x + y)  # Muestra el resultado de la suma de x e y
+#Imprimir el tipo de la variable x
+print(type(x))  #Muestra el tipo de x (debería ser <class 'int'>)
 
+#Imprimir el tipo de la variable y
+print(type(y))  #Muestra el tipo de y (debería ser <class 'float'>)
 
-![image](https://github.com/user-attachments/assets/46db9e31-2b7a-4422-891c-7925a3205f0f)
+#Imprimir el tipo de la variable z
+print(type(z))  #Muestra el tipo de z (debería ser <class 'complex'>)
 
+![image](https://github.com/user-attachments/assets/5709820e-461b-4069-8340-105650279b48)
